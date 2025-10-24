@@ -23,7 +23,7 @@ export const ChatMessage = ({ role, content }: ChatMessageProps) => {
             : "bg-card text-card-foreground border border-border shadow-soft"
         }`}
       >
-        <p className="text-sm leading-relaxed whitespace-pre-wrap break-words">{content}</p>
+        <p className="text-sm leading-relaxed whitespace-pre-wrap break-words [&>strong]:font-bold [&>em]:italic">{content}</p>
       </div>
 
       {isUser && (
