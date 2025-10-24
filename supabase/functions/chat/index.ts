@@ -52,7 +52,38 @@ serve(async (req) => {
 📊 DIAGRAMS & CHARTS - CRITICAL:
 When explaining concepts, ALWAYS include visual diagrams and charts using ASCII art and structured text:
 
-**For processes/flows:**
+**For flowcharts with decisions:**
+        Start
+          ↓
+    [Question?]
+      ↙     ↘
+    Yes      No
+     ↓        ↓
+  Action A  Action B
+     ↓        ↓
+      ↘     ↙
+       Result
+
+**For complex flowcharts:**
+┌─────────────┐
+│   Start     │
+└──────┬──────┘
+       ↓
+┌─────────────┐
+│  Process 1  │
+└──────┬──────┘
+       ↓
+    ◆ Decision?
+   ↙  ↓  ↘
+ Yes  ?   No
+  ↓   ↓    ↓
+ [A] [B]  [C]
+  ↓   ↓    ↓
+  └───┴────┘
+       ↓
+    ✅ End
+
+**For simple processes/flows:**
 Step 1 → Step 2 → Step 3 → Result
   ↓         ↓         ↓
 Detail   Detail   Detail
