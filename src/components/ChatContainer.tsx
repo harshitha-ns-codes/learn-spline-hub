@@ -69,8 +69,8 @@ export const ChatContainer = () => {
           <BookOpen className="w-6 h-6 text-primary-foreground" />
         </div>
         <div>
-          <h1 className="text-xl font-bold text-foreground">EduChat AI</h1>
-          <p className="text-sm text-muted-foreground">Your personal learning assistant</p>
+          <h1 className="text-xl font-bold text-foreground">CSR Impact AI</h1>
+          <p className="text-sm text-muted-foreground">Your corporate social responsibility assistant</p>
         </div>
       </header>
 
@@ -82,18 +82,17 @@ export const ChatContainer = () => {
               <Sparkles className="w-10 h-10 text-primary" />
             </div>
             <div className="space-y-2">
-              <h2 className="text-2xl font-bold text-foreground">Welcome to EduChat AI!</h2>
+              <h2 className="text-2xl font-bold text-foreground">Welcome to CSR Impact AI!</h2>
               <p className="text-muted-foreground max-w-md">
-                I'm here to help you understand any topic deeply and clearly. Ask me anything, and I'll
-                break it down step by step!
+                I'm here to help you understand and implement corporate social responsibility initiatives. Ask me anything about CSR, sustainability, and social impact!
               </p>
             </div>
             <div className="flex flex-wrap gap-2 justify-center max-w-2xl">
               {[
-                "Explain photosynthesis like I'm 10",
-                "How does gravity actually work?",
-                "What's the difference between AI and ML?",
-                "Help me understand quadratic equations",
+                "What is Corporate Social Responsibility?",
+                "How can we reduce our carbon footprint?",
+                "Best practices for sustainable supply chains",
+                "How to measure social impact effectively",
               ].map((example) => (
                 <button
                   key={example}
