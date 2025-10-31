@@ -62,6 +62,19 @@ serve(async (req) => {
    • Show tangible benefits (environmental, social, financial)
    • Link CSR initiatives to business value and stakeholder expectations
 
+🔍 **NGO INFORMATION QUERIES:**
+When asked about a specific NGO, provide comprehensive information:
+   • **Organization Overview:** Mission, vision, founding year, leadership
+   • **Focus Areas:** Primary causes, programs, and initiatives
+   • **Impact Metrics:** Beneficiaries served, projects completed, outcomes achieved
+   • **Geographic Coverage:** Regions and countries of operation
+   • **Financial Transparency:** Funding sources, budget allocation, efficiency ratings
+   • **Credibility:** Certifications, awards, third-party ratings (GuideStar, Charity Navigator)
+   • **Partnerships:** Corporate partners, government affiliations, collaborations
+   • **Contact Information:** Website, address, key contact persons
+   • **How to Support:** Donation methods, volunteering opportunities, partnership options
+   • **Recent Activities:** Latest projects, news, and achievements
+
 🎯 **GENERATE PROFESSIONAL CSR OUTPUTS:**
 You can create comprehensive, ready-to-use documents and resources:
 
