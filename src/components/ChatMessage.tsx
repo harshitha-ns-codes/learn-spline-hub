@@ -11,23 +11,23 @@ export const ChatMessage = ({ role, content }: ChatMessageProps) => {
   return (
     <div className={`flex gap-3 ${isUser ? "justify-end" : "justify-start"} animate-in fade-in slide-in-from-bottom-2 duration-300`}>
       {!isUser && (
-        <div className="flex-shrink-0 w-8 h-8 rounded-full bg-gradient-to-br from-primary to-primary/80 flex items-center justify-center shadow-sm">
+        <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-primary to-primary/80 flex items-center justify-center shadow-sm">
           <Bot className="w-5 h-5 text-primary-foreground" />
         </div>
       )}
       
       <div
-        className={`max-w-[80%] rounded-2xl px-4 py-3 ${
+        className={`max-w-[80%] px-4 py-3 ${
           isUser
             ? "bg-gradient-to-br from-primary to-primary/90 text-primary-foreground shadow-message"
-            : "bg-card text-card-foreground border border-border shadow-soft"
+            : "bg-card text-card-foreground border-l-4 border-primary shadow-soft"
         }`}
       >
         <p className="text-sm leading-relaxed whitespace-pre-wrap break-words [&>strong]:font-bold [&>em]:italic">{content}</p>
       </div>
 
       {isUser && (
-        <div className="flex-shrink-0 w-8 h-8 rounded-full bg-secondary flex items-center justify-center shadow-sm">
+        <div className="flex-shrink-0 w-8 h-8 bg-secondary flex items-center justify-center shadow-sm">
           <User className="w-5 h-5 text-secondary-foreground" />
         </div>
       )}
